@@ -1,0 +1,97 @@
+body{
+   
+}
+
+.box{
+    box-shadow: 4px 4px goldenrod,
+    -4px -4px goldenrod, 
+    1px 1px 8px  black,
+    1px 1px 8px  black;
+    width: 217px;
+    height: 466px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 20px 0px 2px 10px;
+    background: black;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.camera{
+    width: 8px;
+    height:7px;
+    margin:0px auto;
+    border:1px solid white;
+    border-radius: 50%;
+    padding-bottom:2px;
+    text-align: center;
+    background: #232b2b; 
+    
+}
+.text{
+    color: white;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 1px;
+}
+.display{
+    width: 217px;
+    height: 110px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0 7 0 2px; 
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    font-size: 50px;
+    
+}
+
+p{  color: white;
+    background: #232b2b;
+    width: 6px;
+    height: 6px; 
+    border-radius: 50%;
+    border: 0.1px solid black;
+    padding: 19px; 
+    margin: 8px auto;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.grey{
+    background:grey; 
+    color: black;
+    font-weight: bold;
+   
+}
+
+.orange{
+    background:orange;
+    font-weight: bold;
+}
+
+.zero{
+     width: 110px;
+    height: 6px; 
+    border-radius: 12%;
+    border: 0.1px solid black;
+    padding: 20px; 
+    margin: 8px auto;
+    display: inline-block;
+    text-align: center;
+    background:orange;
+    font-weight: bold;
+    color: white;
+}
+.line{
+    border-bottom: 3px solid white; 
+    border-radius: 2px;
+    width: 100px;
+    margin:0px auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
